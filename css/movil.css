@@ -1,35 +1,76 @@
+/* Body */
 .section-movil{
     max-width: 375px;
     padding: 0 1rem;
 }
+/*-----------------------------------*/
 .bg-color-sectio-ram{
-    background-color: #f5f5f5;
+    background-color: #e8eeee;
 }
 .section-ram {
     display: flex;
     flex-direction: column;
-} 
+}
+.section-ram_Imagen1{
+    width: 100%;
+}
 .section-ram_titulo{
-    font-size: var(--h2);
-    color: var(--Texto);
-    margin-top: 5rem;
+    font-size: var(--h1);
+    color: var(--texto);
+    margin-top: 1rem;
+    text-align: justify;
+}
+.section-ram_descripcion{
+    font-size: var(--parrafo);
+    color: var(--texto);
+    margin-top: 1rem;
+    text-align: justify;
+
+}
+.section-ram_boton{
+    text-decoration: none;
+    
+    min-width: 10rem;
+    height: 4rem;
+    border-radius: 5%;
+    background-color: var(--Verde);
+    color: var(--texto);
+    font-size: var(--parrafo);
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    align-self: flex-end;
+    padding: 0 0.5rem;
+}
+/*----------------------------------------------------*/
+.section-tipos-ram {
+    display: flex;
+    flex-direction: column;
+} 
+.section-tipos-ram_titulo{
+    font-size: var(--h1);
+    color: var(--texto);
+    margin-top: 6rem;
     text-align: center;
     font-weight: bold;
 }
-.section-ram_imagenes{
+.section-tipos-ram_imagenes{
     width: 70%;
     height: auto;
     margin: auto;
-    margin-top: 8rem;
+    margin-top: 6rem;
 }
-.section-ram_descripcion{
+.section-tipos-ram_descripcion{
     font-size: var(--Parrafo);
     color: var(--Texto);
     margin-top: 4rem;
     text-align: center;
 
 }
-.section-ram_Orden-Boton {
+.section-tipos-ram_Orden-Boton {
     text-decoration: none;
     
     min-width: 10rem;
@@ -48,14 +89,14 @@
     padding: 0 0.5rem;
     
 }
-.section-ram_Flecha{
-   width: 15px;
-   height: 15px;
-   margin-top: 0.3rem;
-
-}
- .section-ram_Boton{
-    text-decoration: none;
-    color: var(--texto);
-    margin-right: 1rem;
-} 
+.section-tipos-ram_Flecha{
+    width: 15px;
+    height: 15px;
+    margin-top: 0.3rem;
+ 
+ }
+  .section-tipos-ram_Boton{
+     text-decoration: none;
+     color: var(--texto);
+     margin-right: 1rem;
+ }

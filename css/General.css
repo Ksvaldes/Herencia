@@ -5,22 +5,30 @@
 }
 
 html {
-    font-family: 'Roboto', sans-serif;   
     font-size: 10px;
 }
 
 
 :root {
+    /* variables de color */
+    --Verde :rgb(43, 187, 43);
+    --texto :rgb(27, 35, 49);
     --Boton :rgb(180, 189, 186);
-    --Texto :rgb(27, 35, 49);
 
-    --h2 : 3rem;
-    --Parrafo : 2rem;
+
+    /* variables de tamaño de letra */
+    --h1 : 2rem;
+    --h3 : 1rem;
+    --parrafo : 1.5rem;
 }
+
+
+/* Estructura de las secciones */
+
 .background-section {
     width: 100%;
     padding-top: 1rem;
-    padding-bottom: 1.5rem;}
+    padding-bottom: 1rem;}
 
 .section-body {
     max-width: 130rem;
